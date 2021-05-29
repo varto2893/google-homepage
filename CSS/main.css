@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+}
+
+.navbar > a {
+    margin: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+.navbar > a, .navbar > img {
+    padding: 0 8px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 584px;
+    height: 44px;
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+
+#search-icon {
+    padding: 0 8px 0 10px; 
+}
+
+#mic-icon {
+    padding-right: 10px;
+}
+
+#search-space {
+flex-grow: 1;
+height: 30px;
+border: none;
+outline: none;
+}
+
+.search-bar:hover {
+box-shadow: 0 0 10px 0 gainsboro;
+}
+
+#search-space:hover {
+    cursor:text;
+}
+
+.google-buttons {
+    padding-top: 2%;
+}
+
+button {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    height: 36px;
+    margin: 0 4px;
+    padding: 0 20px;
+
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+.footer-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bar {
+    position: fixed;
+    bottom: 0;
+    background-color: #F2F2F2;
+    height: 38px;
+    width: 100%;
+    padding-left: 27px;
+    margin: 0px 0px 0px -27px;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: start;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 27px;
+}
+
+.footer-left > a, .footer-right > a {
+    padding-left: 27px;
+}
